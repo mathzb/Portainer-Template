@@ -24,7 +24,7 @@
 		        }
 	        ],
 	        "image": "adguard/adguardhome:latest",
-	        "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/adguard.png",
+	        "logo": "https://raw.githubusercontent.com/mathzb/Portainer-Template/main/misc/adguardlogo.png",
 	        "name": "adguard",
 	        "platform": "linux",
 	        "ports": [
