@@ -3841,7 +3841,7 @@
 				}
 			],
 			"image": "lloesche/valheim-server:latest",
-			"logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/rutorrent-icon.png",
+			"logo": "https://raw.githubusercontent.com/lloesche/valheim-server-docker/main/misc/Logo_valheim.png",
 			"name": "valheim-dedicated-server",
 			"platform": "linux",
 			"ports": [
