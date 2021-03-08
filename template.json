@@ -3817,6 +3817,51 @@
 					"container": "/downloads"
 				}
 			]
+		},
+		{
+			"categories": [
+				"Game Server"
+			],
+			"description": "Valheim dedicated gameserver with automatic update, World backup and ValheimPlus mod support",
+			"env": [
+				{
+					"default": "1000",
+					"label": "PUID",
+					"name": "PUID"
+				},
+				{
+					"default": "1000",
+					"label": "PGID",
+					"name": "PGID"
+				},
+				{
+					"default": "SERVERNAME",
+					"label": "SERVER_NAME",
+					"name": "SERVER_NAME"
+				}
+			],
+			"image": "lloesche/valheim-server:latest",
+			"logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/rutorrent-icon.png",
+			"name": "valheim-dedicated-server",
+			"platform": "linux",
+			"ports": [
+				"2456:2456/udp",
+				"2457:2457/udp",
+				"2458:2458/udp"
+			],
+			"restart_policy": "unless-stopped",
+			"title": "Valheim Dedicated Server",
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/home/mathzb/docker/valheim/config",
+					"container": "/config"
+				},
+				{
+					"bind": "/home/mathzb/docker/valheim/data",
+					"container": "/opt/valheim"
+				}
+			]
 		}
 	]
 }
