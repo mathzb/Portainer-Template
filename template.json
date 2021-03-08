@@ -3835,9 +3835,34 @@
 					"name": "PGID"
 				},
 				{
-					"default": "SERVERNAME",
+					"default": "SERVER NAME",
 					"label": "SERVER_NAME",
 					"name": "SERVER_NAME"
+				},
+				{
+					"default": "WORLD NAME",
+					"label": "WORLD_NAME",
+					"name": "WORLD_NAME"
+				},
+				{
+					"default": "Server Password",
+					"label": "SERVER_PASSWORD",
+					"name": "SERVER_PASSWORD"
+				},
+				{
+					"default": "Server Port (Default 2456)",
+					"label": "SERVER_PORT",
+					"name": "SERVER_PORT"
+				},
+				{
+					"default": "1",
+					"label": "SERVER_PUBLIC",
+					"name": "SERVER_PUBLIC"
+				},
+				{
+					"default": "false",
+					"label": "VALHEIM_PLUS",
+					"name": "VALHEIM_PLUS"
 				}
 			],
 			"image": "lloesche/valheim-server:latest",
