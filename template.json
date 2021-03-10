@@ -3904,6 +3904,11 @@
 					"default": "1000",
 					"label": "PGID",
 					"name": "PGID"
+				},
+				{
+					"default": "yes",
+					"label": "ALLOW_EMPTY_PASSWORD",
+					"name": "ALLOW_EMPTY_PASSWORD"
 				}
 			],
 			"image": "bitnami/redis",
