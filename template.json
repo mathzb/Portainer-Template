@@ -3887,6 +3887,32 @@
 					"container": "/opt/valheim"
 				}
 			]
+		},
+		{
+			"categories": [
+				"Other",
+				"Tools"
+			],
+			"description": "Redis(TM) is an advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.",
+			"env": [
+				{
+					"default": "1000",
+					"label": "PUID",
+					"name": "PUID"
+				},
+				{
+					"default": "1000",
+					"label": "PGID",
+					"name": "PGID"
+				}
+			],
+			"image": "bitnami/redis",
+			"logo": "https://raw.githubusercontent.com/mathzb/Portainer-Template/main/misc/redislogo.png",
+			"name": "redis",
+			"platform": "linux",			
+			"restart_policy": "unless-stopped",
+			"title": "Redis",
+			"type": 1			
 		}
 	]
 }
