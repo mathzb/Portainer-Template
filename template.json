@@ -3914,7 +3914,10 @@
 			"image": "bitnami/redis",
 			"logo": "https://raw.githubusercontent.com/mathzb/Portainer-Template/main/misc/redislogo.png",
 			"name": "redis",
-			"platform": "linux",			
+			"platform": "linux",
+			"port": [
+				"6379:6379"
+			],		
 			"restart_policy": "unless-stopped",
 			"title": "Redis",
 			"type": 1			
